@@ -19,6 +19,9 @@ export function Navbar() {
           <li>
             <a href="/redux">Redux</a>
           </li>
+          <li>
+            <a href="/random">Random</a>
+          </li>
         </ul>
       </div>
     </>

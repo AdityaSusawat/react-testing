@@ -6,6 +6,7 @@ import { ToDo } from "./pages/ToDo.jsx";
 import { StepForm } from "./pages/StepForm.jsx";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 import Redux from "./pages/Redux.jsx";
+import Random from "./pages/Random.jsx";
 import { store } from "../redux/store.js";
 import { Provider } from "react-redux";
 
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/redux",
     element: <Redux />,
+  },
+  {
+    path: "/random",
+    element: <Random />,
   },
 ]);
 
