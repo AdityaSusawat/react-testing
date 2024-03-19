@@ -3,10 +3,12 @@
 import { configureStore } from "@reduxjs/toolkit";
 import counterReducer from "./counterSlice.js";
 import bugsReducer from "./bugsSlice.js";
+import toDoReducer from "./toDoSlice.js";
 
 export const store = configureStore({
   reducer: {
     counter: counterReducer,
     bugs: bugsReducer,
+    todo: toDoReducer,
   },
 });
